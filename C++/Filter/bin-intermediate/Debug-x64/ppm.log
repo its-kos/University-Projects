@@ -1,0 +1,5 @@
+﻿D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (D:\Dev\Filter\bin-intermediate\Debug-x64\) contains files shared from another project (filter.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  ppm.cpp
+D:\Dev\Filter\ppm\ppm.cpp(49,23): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
+D:\Dev\Filter\ppm\ppm.cpp(89,33): warning C4244: '=': conversion from 'float' to 'char', possible loss of data
+  ppm.vcxproj -> D:\Dev\Filter\bin\Debug-x64\ppm_d.lib

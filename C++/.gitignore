@@ -1,0 +1,27 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*Filter/.lo
+*Filter/.o
+*Filter/.obj
+
+# Precompiled Headers
+*Filter/.gch
+*Filter/.pch
+
+# Compiled Dynamic libraries
+*Filter/.so
+*Filter/.dylib
+*Filter/.dll
+
+# Fortran module files
+*Filter/.mod
+*Filter/.smod
+
+# Compiled Static libraries
+*Filter/.lai
+*Filter/.la
+*Filter/.a
+*Filter/.lib

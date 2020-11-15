@@ -1,0 +1,4 @@
+﻿  ppm.cpp
+D:\Dev\Filter\ppm\ppm.cpp(49,23): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
+D:\Dev\Filter\ppm\ppm.cpp(89,33): warning C4244: '=': conversion from 'float' to 'char', possible loss of data
+  ppm.vcxproj -> D:\Dev\Filter\bin\Release-x64\ppm.lib

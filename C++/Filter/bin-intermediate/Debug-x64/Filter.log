@@ -1,0 +1,67 @@
+﻿D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (D:\Dev\Filter\bin-intermediate\Debug-x64\) contains files shared from another project (ppm.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Filter.cpp
+D:\Dev\Filter\filter\Filter.cpp(47,27): warning C4244: '=': conversion from 'double' to 'S', possible loss of data
+          with
+          [
+              S=float
+          ]
+D:\Dev\Filter\filter\Filter.cpp(48,27): warning C4244: '=': conversion from 'double' to 'S', possible loss of data
+          with
+          [
+              S=float
+          ]
+D:\Dev\Filter\filter\Filter.cpp(49,27): warning C4244: '=': conversion from 'double' to 'S', possible loss of data
+          with
+          [
+              S=float
+          ]
+  Image.cpp
+D:\Dev\Filter\filter\Image.cpp(23,21): warning C4018: '<': signed/unsigned mismatch
+D:\Dev\Filter\filter\array2d.hpp(39,21): warning C4018: '<': signed/unsigned mismatch
+D:\Dev\Filter\filter\array2d.hpp(35): message : while compiling class template member function 'math::Array2D<Color>::Array2D(unsigned int,unsigned int,const T *)'
+          with
+          [
+              T=Color
+          ]
+D:\Dev\Filter\filter\Image.cpp(7): message : see reference to function template instantiation 'math::Array2D<Color>::Array2D(unsigned int,unsigned int,const T *)' being compiled
+          with
+          [
+              T=Color
+          ]
+D:\Dev\Filter\filter\Image.h(11): message : see reference to class template instantiation 'math::Array2D<Color>' being compiled
+D:\Dev\Filter\filter\array2d.hpp(44,21): warning C4018: '<': signed/unsigned mismatch
+D:\Dev\Filter\filter\array2d.hpp(24,19): warning C4018: '<': signed/unsigned mismatch
+D:\Dev\Filter\filter\array2d.hpp(22): message : while compiling class template member function 'void math::Array2D<Color>::setData(const T *const &)'
+          with
+          [
+              T=Color
+          ]
+D:\Dev\Filter\filter\array2d.hpp(54): message : see reference to function template instantiation 'void math::Array2D<Color>::setData(const T *const &)' being compiled
+          with
+          [
+              T=Color
+          ]
+D:\Dev\Filter\filter\array2d.hpp(51): message : while compiling class template member function 'math::Array2D<Color>::Array2D(const math::Array2D<Color> &)'
+D:\Dev\Filter\filter\Image.cpp(5): message : see reference to function template instantiation 'math::Array2D<Color>::Array2D(const math::Array2D<Color> &)' being compiled
+  mainApp.cpp
+D:\Dev\Filter\filter\mainApp.cpp(90,48): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Dev\Filter\filter\mainApp.cpp(90,48): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+D:\Dev\Filter\filter\mainApp.cpp(93,48): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Dev\Filter\filter\mainApp.cpp(93,48): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+D:\Dev\Filter\filter\array2d.hpp(24,19): warning C4018: '<': signed/unsigned mismatch
+D:\Dev\Filter\filter\array2d.hpp(22): message : while compiling class template member function 'void math::Array2D<Color>::setData(const T *const &)'
+          with
+          [
+              T=Color
+          ]
+D:\Dev\Filter\filter\array2d.hpp(64): message : see reference to function template instantiation 'void math::Array2D<Color>::setData(const T *const &)' being compiled
+          with
+          [
+              T=Color
+          ]
+D:\Dev\Filter\filter\array2d.hpp(58): message : while compiling class template member function 'math::Array2D<Color>::~Array2D(void)'
+D:\Dev\Filter\filter\mainApp.cpp(108): message : see reference to function template instantiation 'math::Array2D<Color>::~Array2D(void)' being compiled
+D:\Dev\Filter\filter\Image.h(11): message : see reference to class template instantiation 'math::Array2D<Color>' being compiled
+  Generating Code...
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (D:\Dev\Filter\bin-intermediate\Debug-x64\) contains files shared from another project (filter.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Filter.vcxproj -> D:\Dev\Filter\bin\Debug-x64\filterd.exe
